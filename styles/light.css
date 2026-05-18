@@ -1,6 +1,7 @@
 :root.theme-light {
-  --bg-color: #353430;
+  --bg-color: #f1b2ce;
   --text-color: #353430;
+  --text-title-color: #353430;
   --accent-color: #ff8dcb;
   --title-color: #FFC2E6;
   --corner-color: #353430;
@@ -17,6 +18,7 @@
   :root {
     --bg-color: #353430;
     --text-color: #353430;
+    --text-title-color: #353430;
     --accent-color: #ff8dcb;
     --title-color: #FFC2E6;
     --corner-color: #353430;
