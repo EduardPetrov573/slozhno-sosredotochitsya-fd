@@ -126,7 +126,7 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  color: var(--bg-color);
+  color: var(--text-title-color);
 }
 
 .content {
@@ -274,6 +274,18 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
+  }
+
+  .content-section_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .content-section_grid .content-section__title {
+    max-inline-size: calc(33% - 7px);
+  }
+
+  .content-section_grid .content-section__list {
+    grid-column: 1 / -1;
   }
 
   .content-section__list {
