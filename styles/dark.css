@@ -1,6 +1,7 @@
 :root.theme-dark {
   --bg-color: #000028;
   --text-color: #F1B2CE;
+  --text-title-color: #000028;
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --corner-color: #ff0070;
